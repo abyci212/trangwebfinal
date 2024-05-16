@@ -1,0 +1,230 @@
+@media only screen and (max-width: 844px) {
+    .banner {
+        display: flex;
+        width: 150px;
+        height: 150px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .banner {
+        display: flex;
+        width: 350px;
+        height: 350px;
+    }
+}
+/* @media only screen and (min-width: 768px) {
+    .banner {
+        display: flex;
+        width: 700px;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner {
+        display: flex;
+        width: 350px;
+        height: 350px;
+    }
+} */
+@media only screen and (min-width: 992px) {
+    .banner {
+        display: flex;
+        width: 470px;
+        height: 470px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .banner {
+        display: flex;
+        width: 720px;
+        height: 500px;
+    }
+}
+
+/* @media only screen and (max-width: 1280px) {
+    .banner {
+        display: flex;
+        width: 600px;
+        height: 500px;
+    }
+} */
+div#navbar a{
+    color: white;
+    font-weight: bold;
+}
+
+div#navbar a:hover{
+    color: black;
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+
+div#navbar-button a {
+    color: white;
+    font-weight: bold;
+}
+div#navbar-button a:hover{
+    color: black;
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+div#banner-button h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+div#banner-button:has(a:hover) {
+    transform: translate3D(0,-1px,0) scale(1.0); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#new-arrivals h1:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    transition: all .4s ease; 
+    cursor: default;
+    color: wheat;
+}
+div#see-more a div:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    transition: all .4s ease; 
+    cursor: pointer;
+    color: wheat;
+}
+div#second-banner h4 {
+    color: white;
+}
+div#second-banner h4:hover{
+    color: beige;
+    cursor: default;
+}
+div#second-banner div#second-banner-button a div h3 {
+    color: white;
+}
+div#second-banner div#second-banner-button a div span {
+    color: white;
+}
+div#second-banner div#second-banner-button a div:has(h3:hover){
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+    h3{
+        color: wheat;
+    }
+    span{
+        color: wheat;
+    }
+}
+div#fifth-section-title h1{
+    color: white;
+}
+div#fifth-section-title h1:hover{
+    color: beige;
+    transform: translate3D(0,-1px,0) scale(1.0); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+}
+div#footer-options div p{
+    color: white;
+}
+div#footer-options div p:hover{
+    color: black;
+    transform: translate3D(0,-1px,0) scale(1.0);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    cursor: default;
+}
+div#footer-contact div.phone-email span {
+    color: white;
+}
+div#footer-contact div.phone-email span:hover {
+    color: black;
+    transform: translate3D(0,-1px,0) scale(1.0);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: default;
+}
+div#footer-social-media i#tiktok {
+    color: black;
+}
+div#footer-social-media i#tiktok:hover {
+    color: azure;
+    transform: translate3D(0,-1px,0) scale(1.0); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#footer-social-media i#facebook {
+    color: black;
+}
+div#footer-social-media i#facebook:hover {
+    color: blue;
+    transform: translate3D(0,-1px,0) scale(1.0); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#footer-social-media i#instagram {
+    color: black;
+}
+div#footer-social-media i#instagram:hover {
+    color: plum;
+    font-weight: bold;
+    transform: translate3D(0,-1px,0) scale(1.0); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+div#givenchy:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#tobacco:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+div#valentino:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#radical-rose:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#bois-imperial:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+div#purple-haze:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease;
+    cursor: pointer;
+}
+div#a-mouage:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}
+img.banner:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); 
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    transition: all .4s ease; 
+    cursor: pointer;
+}

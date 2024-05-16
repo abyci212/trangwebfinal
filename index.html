@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="plugins/bootsrap_source/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/fontawesome-free-6.4.0-web/css/all.min.css">
+    
+    <title>LUX FRAGRANCE</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row p-4" style="background-color: rgba(144, 132, 113, 1);">
+            <div class="col-6 col-lg-6 navbar-expand-lg">
+                <a class="navbar-brand" href=""><img style="width: 70px; height: 70px;" class="mb-1" src="img/LUX LOGO1 (1).pdf.png" alt="Logo"></a>
+                <div class="d-lg-flex" id="navbar">
+                    <a class="text-decoration-none " href="">Women's Perfume</a>
+                    <a class="text-decoration-none ps-lg-5" href="">Men's Cologne</a>
+                    <a class="text-decoration-none ps-lg-5" href="">Brands</a>
+                </div>
+            </div>
+            <div class="col-6 col-lg-6 text-lg-end text-sm-end d-sm-grid align-items-sm-center d-lg-grid align-items-lg-center">
+                <div class="pe-sm-3" id="navbar-button">
+                    <input type="text" class="me-lg-3" name="search" id="search" style="display: none;border-radius: 10px; border: 0px; padding: 5px;" placeholder="Search">
+                    <a class="pe-lg-3 text-decoration-none" href="#" onclick="showSearchBar()">
+                        <i class="fa-solid fa-magnifying-glass" id="button"></i> 
+                    </a> <span class="text-white">|</span>
+                    <a class="pe-lg-3 text-decoration-none" href="#">
+                        <i class="fa-solid fa-cart-shopping ps-3 pe-3"></i>
+                    </a> <span class="text-white">|</span>
+                    <a href="#" class="text-decoration-none ps-1">
+                        Sign in
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row position-relative" style="background-image: url('./img/banner.jpg'); background-position: center; height: 100vh; background-size: cover; background-repeat: no-repeat;">
+            <div class="col-6 position-absolute start-0 top-50 ps-5 pb-5 translate-middle-y" style="width: 50vh;">
+                <p class="fa-fade text-white fw-semibold fs-1">Discover The Fragrance Or Elegancee</p>
+            </div>
+            <div class="col-6 position-absolute top-50 start-50 text-center mt-5" id="banner-button">
+                <h1 class="mb-5">Shop now</h1>
+                <a href="#" class="border border-2 border-start-0 fs-4 p-3 rounded-circle">
+                    <i class="fa-solid fa-arrow-right text-white"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5 bg-gradient">
+            <div class="col-lg col-sm p-5">
+                <div class="row">
+                    <div class="col-6 col-sm-6 ps-0" id="new-arrivals">
+                        <h1>New Arrivals</h1>
+                    </div>
+                    <div class="col-6 col-sm-6 text-end pe-0" id="see-more">
+                        <a class="text-decoration-none text-dark" href="">
+                            <div>
+                                <h4 class="d-inline me-3">See more</h4>
+                                <span class="fs-3"><i class="fa-solid fa-angle-right"></i></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row mt-5 bg-gradient d-flex justify-content-between">
+                            <div class="card border-0 p-sm-0" id="givenchy" style="width: 18rem;">
+                                <img src="./img/product-1.jpg"  class="card-img-top" style="height: 300px;" alt="...">
+                                <div class="card-body ps-0">
+                                  <h5 class="card-title fw-bold">Givenchy</h5>
+                                  <p class="card-text">
+                                    Givenchy is a French luxury fashion and perfume house. It hosts the brand of haute couture and ready-to-wear clothing, accessories, perfumes and cosmetics of Parfums Givenchy.
+                                  </p>
+                                  <a href="#" class="btn btn-primary">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>21.47</span>
+                                  </a>
+                                </div>
+                            </div>
+                            <div class="card border-0 p-sm-0" id="tobacco" style="width: 18rem;">
+                                <img src="./img/product-2.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                                <div class="card-body ps-0">
+                                  <h5 class="card-title fw-bold">Tobacco</h5>
+                                  <p class="card-text">
+                                    Distinct from the scent of smoking tobacco, the tobacco note is warm and sweet. It is velvety soft and smooth, with enveloping,
+                                     honey-like facets. A rich, aromatic note often likened to the scent of freshly cut hay.
+                                  </p>
+                                  <a href="#" class="btn btn-primary">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>22.56</span>
+                                  </a>
+                                </div>
+                            </div>
+                            <div class="card border-0 p-sm-0" id="valentino" style="width: 18rem;">
+                                <img src="./img/product-3.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                                <div class="card-body ps-0">
+                                  <h5 class="card-title fw-bold">Valentino</h5>
+                                  <p class="card-text">
+                                    Valentino S.p.A. is an Italian luxury fashion house founded in 1960 by Valentino Garavani and part of the Valentino 
+                                    Fashion Group. From October 2008, the creative director is Pierpaolo Piccioli, jointly with Maria Grazia Chiuri from 2008 to 2016. 
+                                  </p>
+                                  <a href="#" class="btn btn-primary">
+                                    <i class="fa-solid fa-dollar-sign"></i>
+                                    <span>20.00</span>
+                                  </a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color: rgba(144, 132, 113, 1);" id="second-banner">
+            <h4 class="ps-4 pt-3 pb-5 ">Popular Brands</h4>
+            <div class="row">
+                <div class="ps-4 d-flex gap-3 pe-0">
+                    <div class="col">
+                        <img class="banner" src="./img/product-4.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <img class="banner" src="./img/product-5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6 text-end" id="second-banner-button">
+                    <a class="text-decoration-none text-dark" href="#">
+                        <div class="pt-3 pb-3">
+                            <h3 class="d-inline me-3">See more</h3>
+                            <span class="fs-3"><i class="fa-solid fa-angle-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row bg-white" style="height: 50px;"></div>
+        <div class="row" style="background-color: rgba(144, 132, 113, 1);" id="fifth-section-title">
+            <h1 class="text-center pt-2 pb-2">You May Also Like</h1>
+        </div>
+        <div class="row gap-5 mt-3 mb-5 ps-4">
+            <div class="col">
+                <div class="row mt-5 bg-gradient justify-content-sm-center justify-content-lg-between justify-content-xl-center gap-5">
+                    <div class="card border-0 p-0" id="radical-rose" style="width: 18rem;">
+                        <img src="./img/product-6.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                        <div class="card-body ps-0">
+                          <h5 class="card-title fw-bold">Radical Rose</h5>
+                          <p class="card-text">
+                            Masterpiece Radical Rose perfume by Matiere Premiere If you are looking for a unique and different
+                             rose scent, Radical Rose may be what you are looking for from the house of Matiere Premiere. 
+                             Extremely deep rose scent note combined with...
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>40.00</span>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="card border-0 p-0" id="bois-imperial" style="width: 18rem;">
+                        <img src="./img/product-7.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                        <div class="card-body ps-0">
+                          <h5 class="card-title fw-bold">Bois Imperial</h5>
+                          <p class="card-text">
+                            Embellished with fresh spices, a wonderfully woody note is created by the contrast of
+                             patchouli and Thai basil and the softness of pink grapefruit from Timut Pepper.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>110.00</span>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="card border-0 p-0" id="purple-haze" style="width: 18rem;">
+                        <img src="./img/product-8.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                        <div class="card-body ps-0">
+                          <h5 class="card-title fw-bold">Purple Haze</h5>
+                          <p class="card-text">
+                            Nineteen Sixty Nine Purple Haze is a perfume for both women and men. Nineteen Sixty Nine Purple 
+                            Haze was launched by the brand in 2017.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>30.00</span>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="card border-0 p-0" id="a-mouage" style="width: 18rem;">
+                        <img src="./img/product-9.jpg" class="card-img-top" style="height: 300px;" alt="...">
+                        <div class="card-body ps-0">
+                          <h5 class="card-title fw-bold">A Mouage</h5>
+                          <p class="card-text">
+                            Amouage is a luxury perfume brand founded and owned by the royal family of Oman since 1983, 
+                            with the desire to connect the splendor of Western fragrances with the magical mystery of
+                             Western fragrances. Winter.
+                          </p>
+                          <a href="#" class="btn btn-primary">
+                            <i class="fa-solid fa-dollar-sign"></i>
+                            <span>210.00</span>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row p-5" style="background-color: rgba(144, 132, 113, 1);">
+            <div class="row" id="footer-options">
+                <div class="col-sm-3 fw-bold">
+                    <p class="text-uppercase ">Shop</p>
+                    <p class="">Best Sellers</p>
+                    <p class="">Celebrity Scents</p>
+                    <p class="">Perfume Samples</p>
+                    <p class="">Cologne Samples</p>
+                </div>
+                <div class="col-sm-3 fw-bold">
+                    <p class="text-uppercase ">Help</p>
+                    <p class="">Shopping & Ordering</p>
+                    <p class="">Celebrity Scents</p>
+                    <p class="">Term Of Use</p>
+                    <p class="">Contact Us</p>
+                </div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row mt-5 d-lg-flex justify-content-lg-center d-xl-flex justify-content-xl-center" id="footer-contact">
+                <div class="col-lg-4 fw-bold fs-4 phone-email">
+                    <i class="fa-solid fa-phone fa-bounce text-white"></i>
+                    <span class="ms-lg-5 ms-5">0987802447</span>
+                </div>
+                <div class="col-lg-4 fw-bold fs-4 phone-email">
+                    <i class="fa-solid fa-envelope fa-beat text-white"></i>
+                    <span class="ms-lg-5 ms-4">luxfragrance@gmail.com</span>
+                </div>
+                <div class="col-lg-4 fw-bold fs-4 d-flex justify-content-around justify-content-md-around fa-fade" id="footer-social-media">
+                    <a href="#" class="text-decoration-none">
+                        <i class="fa-brands fa-tiktok" id="tiktok"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none ">
+                        <i class="fa-brands fa-facebook" id="facebook"></i>
+                    </a>
+                    <a href="#" class="text-decoration-none">
+                        <i class="fa-brands fa-instagram" id="instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="effect.js"></script>
+</html>
